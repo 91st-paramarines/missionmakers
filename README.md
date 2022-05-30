@@ -18,7 +18,7 @@ In multiplayer, add-on settings are three-tiered :
   
 </details>
 
-## Missionmaker's checklist
+## Missionmaking checklist
 
 <details>
 
