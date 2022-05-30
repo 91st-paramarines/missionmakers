@@ -2,10 +2,10 @@
 
 This is the place where we gather all sorts of useful stuff for our missionmakers
 
+## Addon-settings
+
 <details>
-  
-  <summary>## Addon-settings</summary>
-  
+ 
 ### Settings hierarchy
 In multiplayer, add-on settings are three-tiered :
 - client settings affect only the local machine. They are set by each connected player for their own computer.
