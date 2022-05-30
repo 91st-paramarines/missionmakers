@@ -1,0 +1,14 @@
+// Your name
+author = "";
+
+// Mission selection screen settings
+briefingName       = "";
+overviewText       = "";
+overviewTextLocked = "";
+overviewPicture    = "";
+
+// Mission loading screen settings
+onLoadName    = "";
+onLoadMission = "";
+loadscreen    = "picture.paa";
+respawnOnStart = 0;
