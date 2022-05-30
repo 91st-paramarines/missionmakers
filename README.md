@@ -51,6 +51,14 @@ This is not a step-by-step guide to making a good mission, more like guidelines 
  Raw mission files are stored in a mission folder located in the `missions` or `mpmissions` folder of your profile folder.
  By default, the mission folder will only contain a `mission.sqm` file, which describes your entire mission.
  Additional resources (script files, pictures, sounds, movies, so on) can be placed directly next to the `mission.sqm`, or within nested subfolders if necessary.
- They can then be referenced in the Ed3n Editor by their path relative to the `mission.sqm` file.
+ They can then be referenced in the Eden Editor by their path relative to the `mission.sqm` file.
  
-</details>
+ ### description.ext
+ The `description.ext` is an optional file you can place in your mission root folder.
+ You can use it to specify various settings in a single file, instead of having to go over multiple editor tabs.
+ It can also be used for more advanced purposes not covered here, such as adding config classes.
+ The template provided [here](description.ext) allows you to bypass the `Presentation`, `Overview`, `Overview (Locked)` and `Loading Screen` tabs of the `Attributes`>`General` window of the editor.
+<br><br> 
+Settings specified in the description.ext file override those defined within the editor!
+ 
+ </details>
