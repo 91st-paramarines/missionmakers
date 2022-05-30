@@ -10,5 +10,7 @@ overviewPicture    = "";
 // Mission loading screen settings
 onLoadName    = "";
 onLoadMission = "";
-loadscreen    = "picture.paa";
+loadscreen    = "";
+
+// Prevents players from dying when respawning after joining server
 respawnOnStart = 0;
