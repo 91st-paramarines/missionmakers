@@ -25,7 +25,7 @@ This is not a step-by-step guide to making a good mission, more like guidelines 
 - if you don’t have direct access to the server ask either Winters, Compton, Ollo, Wonko or Miller
 - we don’t want a server test to be run at 5 PM day of, always try and get a server test done as far in advance as you practically can (two days is a good compromise)
 - have you set a particular time for your mission to start in game ?
-- 
+
 ### In-game
 - load in the add-on on settings
 - if you wish an add-on setting to be changed, bring it up to your CO
