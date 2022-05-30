@@ -61,4 +61,11 @@ This is not a step-by-step guide to making a good mission, more like guidelines 
 <br><br> 
 Settings specified in the description.ext file override those defined within the editor!
  
+ ### Packaging and sharing your mission file
+ The mission folder and its content are unpackaged data that can be modified via the in-game editor.
+ Those are the files to share when collaborating with other missionmakers.
+ If you want to upload your mission to a server, you have to package it into a PBO first.
+ To do so, go to `Scenario`>`Export`>`Export to Singleplayer` or `Export to Multiplayer`.
+ The game will package your mission and its resources, and will produce a .pbo file in the `Missions` or `MPMissions` folder of your arma install folder, depending on the export option you chose.
+  
  </details>
