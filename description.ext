@@ -1,16 +1,29 @@
 // Your name
 author = "";
 
-// Mission selection screen settings
+
+// The title and summaries that will appear on the mission loading screen
 briefingName       = "";
-overviewText       = "";
-overviewTextLocked = "";
+overviewText       = ""; // Summary if mission is playable
+overviewTextLocked = ""; // Summary if mission is not playable
+
+// Picture that will appear on the mission selection screen
+// Picture HAS to be in the .paa format and its dimensions must be powers of two
+// Recommended aspect ratio is 2:1
+// File path is relative to mission root folder
 overviewPicture    = "";
 
-// Mission loading screen settings
+
+// The title and summary that will appear on the mission loading screen
 onLoadName    = "";
 onLoadMission = "";
+
+// Picture that will appear on the mission loading screen
+// Picture HAS to be in the .paa format and its dimensions must be powers of two
+// Recommended aspect ratio is 2:1
+// File path is relative to mission root folder
 loadscreen    = "";
 
 // Prevents players from dying when respawning after joining server
 respawnOnStart = 0;
+
