@@ -42,3 +42,15 @@ This is not a step-by-step guide to making a good mission, more like guidelines 
 - under "Attributes > Settings > General > Multiplayer > Respawn" select "Respawn on custom position" then select "Select respawn position" then set the respawn delay to 5 seconds
   
 </details>
+
+## Missionmaking tutorials
+
+<details>
+ 
+ ### Mission folder structure
+ Raw mission files are stored in a mission folder located in the `missions` or `mpmissions` folder of your profile folder.
+ By default, the mission folder will only contain a `mission.sqm` file, which describes your entire mission.
+ Additional resources (script files, pictures, sounds, movies, so on) can be placed directly next to the `mission.sqm`, or within nested subfolders if necessary.
+ They can then be referenced in the Ed3n Editor by their path relative to the `mission.sqm` file.
+ 
+</details>
