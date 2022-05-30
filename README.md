@@ -2,7 +2,7 @@
 
 This is the place where we gather all sorts of useful stuff for our missionmakers
 
-## Addon-settings
+## Addon settings
 
 <details>
  
