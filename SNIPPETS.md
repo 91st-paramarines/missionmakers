@@ -8,29 +8,8 @@ Here you will find various code snippets for use in the editor or in zeus, that 
  
 ### Adding a radio rack to a vehicle
 The following will add an AN/PRC-77 to the vehicle is it called on.
-The radio will be accessible by the vehicle's driver and commander.
-
-Editor version (execute in the vehicle's init): 
-```
-	[
-		this,
-		[
-			"ACRE_VRC64",
-			"Dashboard",
-			"Dash",
-			false,
-			["driver", "commander"],
-			[],
-			"ACRE_PRC77",
-			[],
-			["intercom_1"]
-		],
-		false,
-		{}
-	] call acre_api_fnc_addRackToVehicle;
-```
+The radio will be accessible by the vehicle's driver and commander.  
   
-Zeus version (execute globally on the vehicle's property window) : 
 ```
 if (isServer) then  
 {
@@ -53,4 +32,7 @@ if (isServer) then
 };
 ```
   
+For use in the editor, place this code in the vehicle's init field.  
+	For use in zeus, execute this code globally, replacing <b><em>this</em></b> with <b><em>_this</em></b>.
+
 </details>
