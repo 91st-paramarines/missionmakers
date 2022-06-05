@@ -7,14 +7,14 @@ Here you will find various code snippets for use in the editor or in zeus, that 
 <details>
  
 ### Adding a radio rack to a vehicle
-The following will add an AN/PRC-77 to the vehicle is it called on.
-The radio will be accessible by the vehicle's driver and commander.  
+The following will add an AN/PRC-77 to <b>var</b>.
+The radio will be accessible by <b>var</b>'s driver and commander.  
   
 ```
 if (isServer) then  
 {
 	[
-		this,
+		var,
 		[
 			"ACRE_VRC64",
 			"Dashboard",
@@ -31,8 +31,24 @@ if (isServer) then
 	] call acre_api_fnc_addRackToVehicle;
 };
 ```
+
+</details>
+
+## Cargo, carrying and dragging
+
+<details>
+ 
+### Make an object draggable
+The following will make <b>var</b> carriable and draggable through the ACE interaction menu.
+
+```
+[var, true, [0, 1, 1], 0] call ace_dragging_fnc_setCarryable;
+```  
+
+```
+[var, true, [0, 1.5, 0], 0] call ace_dragging_fnc_setDraggable;;
+```
   
 For use in the editor, place this code in the vehicle's init field.  
-	For use in zeus, execute this code globally, replacing <b><em>this</em></b> with <b><em>_this</em></b>.
 
 </details>
