@@ -34,19 +34,18 @@ if (isServer) then
 
 </details>
 
-## Cargo, carrying and dragging
+## Carrying and dragging
 
 <details>
- 
-### Make an object draggable
-The following will make <b>var</b> carriable and draggable through the ACE interaction menu.
+
+The following will respectively make <b>var</b> carriable and draggable through the ACE interaction menu.
 
 ```
 [var, true, [0, 1, 1], 0] call ace_dragging_fnc_setCarryable;
 ```  
 
 ```
-[var, true, [0, 1.5, 0], 0] call ace_dragging_fnc_setDraggable;;
+[var, true, [0, 1.5, 0], 0] call ace_dragging_fnc_setDraggable;
 ```
   
 For use in the editor, place this code in the vehicle's init field.  
