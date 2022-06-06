@@ -47,7 +47,5 @@ The following will respectively make <b>var</b> carriable and draggable through 
 ```
 [var, true, [0, 1.5, 0], 0] call ace_dragging_fnc_setDraggable;
 ```
-  
-For use in the editor, place this code in the vehicle's init field.  
 
 </details>
