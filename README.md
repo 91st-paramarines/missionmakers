@@ -14,4 +14,4 @@ The ACRE2 mod wiki [ACRE2](https://acre2.idi-systems.com/).
 ## Repo contents
 
 - [missionmaking.md](missionmaking.md) provides general guidelines and resources for missionmakers  
-- [snippets.md](snippets.md) contains various short excerpts of sqf code performing reasonably specific tasks
+- [snippets.md](snippets.md) contains various SQF snippets performing reasonably specific and/or common tasks
