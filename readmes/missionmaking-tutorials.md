@@ -66,12 +66,12 @@ In multiplayer, add-on settings are three-tiered :
 - Client settings affect only the local machine.
 They are set by each connected player for their own computer.
 - Mission settings affect all connected players.
-They are set by the missionmaker, and can overwrite client settings <b>if explicitly specified</b>.
+They are set by the missionmaker, and can overwrite client settings **if explicitly specified**.
 - Server settings affect all connected players.
-They are set by the server admin, and can overwrite mission settings as well as client settings <b>if explicitly specified</b>.
+They are set by the server admin, and can overwrite mission settings as well as client settings **if explicitly specified**.
  
 ### Default settings
-[This file](mission.txt) contains the current mission add-on settings for missionmakers to import into their own scenarios.<br>
-[This file](server.txt) contains the current server add-on settings (for reference).
+- [mission.txt](addon-settings/mission.txt) contains the current mission add-on settings for missionmakers to import into their own scenarios.
+- [server.txt](addon-settings/server.txt) contains the current server add-on settings (for reference).
   
 </details>
