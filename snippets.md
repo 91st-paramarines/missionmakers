@@ -49,3 +49,16 @@ The following will respectively make <b>var</b> carriable and draggable through 
 ```
 
 </details>
+
+## Invulnerability
+
+<details>
+
+The following will make <b>var</b> invulnerable to most damage sources (some minor damage may still occur in the event of a vehicle crash).
+
+```
+call {[var, "blockDamage", null, true] call ace_common_fnc_statusEffect_set;};
+```
+
+</details>
+
