@@ -13,5 +13,6 @@ The ACRE2 mod wiki [ACRE2](https://acre2.idi-systems.com/).
 
 ## Repo contents
 
-- [missionmaking.md](missionmaking.md) provides general guidelines and resources for missionmakers  
+- [missionmaking-tutorials.md](missionmaking-tutorials.md) provides concise and limited tutorials about Arma 3 missionmaking 
+- [missionmaking-guidelines.md](missionmaking-guidelines.md) provides general guidelines and checklists for missionmakers 
 - [snippets.md](snippets.md) contains various SQF snippets performing reasonably specific and/or common tasks
