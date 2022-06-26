@@ -1,9 +1,9 @@
 # Missionmakers guidelines
 
-This documents presents some general guidelines and checklists for missionmakers to follow.
-These guidelines are the result of our combined missionmakers' experience, not just some fanciful requirements to look cool, so please read carefully as this can save us all lots of time and frustration for both mission maker and players.
+This documents presents some general guidelines and checklists for mission makers to follow.
+These guidelines are the result of our combined mission makers' experience, not just some fanciful requirements to look cool, so please read carefully as this can save us all lots of time and frustration for both mission maker and players.
 
-## Missionmaking checklist
+## Mission making checklist
 
 <details>
 
@@ -11,9 +11,9 @@ These guidelines are the result of our combined missionmakers' experience, not j
 
 - Check your mods are up to date
 - Make sure you're using the correct modlist (ie remove whatever additional mods you may be using client-side)
-- If you are making a long mission (several main objectives), do a multiplayer test every time you complete a major section, test on loacl host multiplayer then get a server admin to upload to one of our dedicated servers for further testing. ( things behave diffrrently between editor and dedicated server)
+- If you are making a long mission (several main objectives), do a multiplayer test every time you complete a major section, test on local host multiplayer then get a server admin to upload to one of our dedicated servers for further testing. (things behave diffrrently between editor and dedicated server)
 - If you don’t have direct access to the server ask either Compton, Ollo, Wonko or Miller
-- We don’t want a server test to be run at 5 PM day of, always try and get a server test done as far in advance as you practically can (two days is a good compromise)
+- We don’t want a server test to be run at 5 PM day of the operation, always try and get a server test done as far in advance as you practically can (two days is a good compromise)
 - Have you set a particular time for your mission to start in game ?
 - Do not have long periods of inactivity because of driving, flying or boating long distances, people do not join to play walking simulator, anything longer than 5 mins is to long.
 - Keep role play to a minimum, people join to shoot & blow shit up, there are other games for role play.
