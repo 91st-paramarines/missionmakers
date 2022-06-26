@@ -20,7 +20,7 @@ These guidelines are the result of our combined missionmakers' experience, not j
 - Try and bring emersion to the mission with appropriate music, weather or use of civilians, just slapping down enemy AI and say walk here kill that, dose not make a mission worthy of peoples Saturday evenings, be creative, not all missions need to be large scale constant engaments but they do need to keep interest in the mission. To much time travelling or doing stuff that is not directly related to shooting & blowing shit up is going to drop peoples attention and interest in the mission.
 - Always try and be realistic in what the mission is and how it would be carried out in real life, but balanced with what is possible in Arma and what is fun for people to be doing on their Saturday evening.
 - Respawning should be via heli insert or use the MARRs system or anything similar that is not just teleporting people straight back, that said sometimes we do need to do that, but it should not be the default method. (If you have not set up the MARRs system yet please contact Ollo, Stone, Wonko)
-
+- Newer mission makers should get either Compton, Miller, Ollo or Wonko to have a look at their mission to make sure there are no gameplay issues from overlooking something in the gameplay that could cuase mission failure.
   
 ### In-game
 
