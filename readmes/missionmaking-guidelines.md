@@ -1,7 +1,7 @@
 # Missionmakers guidelines
 
 This documents presents some general guidelines and checklists for missionmakers to follow.
-These guidelines are the result of our combined missionmakers' experience, not just some fanciful requirements to look cool, so please read carefully as this can save us all lots of time and frustration.
+These guidelines are the result of our combined missionmakers' experience, not just some fanciful requirements to look cool, so please read carefully as this can save us all lots of time and frustration for both mission maker and players.
 
 ## Missionmaking checklist
 
