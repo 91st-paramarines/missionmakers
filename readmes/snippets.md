@@ -78,13 +78,12 @@ deleteVehicle _vehicle;
 ```
 </details>
 
-## Garbage collection and stop respawnon start
+## Garbage collection and stop respawn on start
 
 <details>
 	
 ```
 respawnOnStart = -1; 
-// Garbage Collection
 
 corpseManagerMode = 3;
 corpseLimit = 1;
