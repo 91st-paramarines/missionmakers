@@ -66,7 +66,9 @@ call {[var, "blockDamage", null, true] call ace_common_fnc_statusEffect_set;};
 ## Delete vehicle and crew
 
 <details>
-	Place in way point activation or in a trigger
+
+Place in way point activation or in a trigger
+
 ```
 _vehicle= vehicle this;
 { 
