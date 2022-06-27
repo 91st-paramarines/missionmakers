@@ -82,7 +82,6 @@ deleteVehicle _vehicle;
 
 <details>
 	
-</details>
 ```
 respawnOnStart = -1; 
 // Garbage Collection
@@ -92,3 +91,4 @@ corpseLimit = 1;
 corpseRemovalMinTime = 60;
 corpseRemovalMaxTime = 300;
 ```
+</details>
