@@ -62,9 +62,10 @@ call {[var, "blockDamage", null, true] call ace_common_fnc_statusEffect_set;};
 
 </details>
 
-<details>
 
 ## Delete vehicle and crew
+
+<details>
 	Place in way point activation or in a trigger
 ```
 _vehicle= vehicle this;
@@ -73,3 +74,4 @@ _vehicle= vehicle this;
 } forEach crew _vehicle; 
 deleteVehicle _vehicle; 
 ```
+</details>
