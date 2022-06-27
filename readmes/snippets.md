@@ -77,3 +77,18 @@ _vehicle= vehicle this;
 deleteVehicle _vehicle; 
 ```
 </details>
+
+## Garbage collection and stop respawnon start
+
+<details>
+	
+</details>
+```
+respawnOnStart = -1; 
+// Garbage Collection
+
+corpseManagerMode = 3;
+corpseLimit = 1;
+corpseRemovalMinTime = 60;
+corpseRemovalMaxTime = 300;
+```
