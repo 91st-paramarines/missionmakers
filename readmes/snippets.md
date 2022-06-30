@@ -93,3 +93,14 @@ corpseRemovalMinTime = 60;
 corpseRemovalMaxTime = 300;
 ```
 </details>
+
+## Ace Arsenel to box or vehicle
+
+<details>
+
+```
+	[this, true] call ace_arsenal_fnc_initBox;
+
+```
+
+</details>
