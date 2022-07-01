@@ -104,3 +104,11 @@ corpseRemovalMaxTime = 300;
 ```
 
 </details>
+
+## Quatermaster Ace Asrenal
+
+<details>
+
+```
+this addAction["Quatermaster Open Arsenal", {[_this select 0, player, true] call ace_arsenal_fnc_openBox},[this]];
+```
