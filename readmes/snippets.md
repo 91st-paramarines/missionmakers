@@ -110,14 +110,19 @@ corpseRemovalMaxTime = 300;
 <details>
 
 ```
+
 this addAction["Quartermaster Open Arsenal", {[_this select 0, player, true] call ace_arsenal_fnc_openBox},[this]];
+
 ```
 </details>
 
 ## Reliable music trigger script MP
 
 <details>
+
 ```
+
 if isServer then {"insert classname" remoteExec ["playMusic"];}
+
 ```
 </details>
