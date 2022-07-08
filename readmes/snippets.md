@@ -126,3 +126,23 @@ if isServer then {"insert classname" remoteExec ["playMusic"];}
 
 ```
 </details>
+
+## Intro text
+
+<details>
+trigger 1
+Put this in activation
+
+```
+execVM "text1.sqf"; 
+```
+["<t color='#ffffff' size = '4'>Exercise Ajax<br /><br />by  Wonko<br /><br /></t>",-1,-1,2,2,0,789] spawn BIS_fnc_dynamicText;
+```
+Create a file called text1.sqf put the above code in it. The following 2 line in to seperate sqf files with corisponding triggers.
+```
+["<t color='#c9060d' size = '2'>91st Paramarines<br /><br /><br />Fox Company<br /></t>",-1,-1,2,2,0,789] spawn BIS_fnc_dynamicText;
+```
+```
+["<t color='#ffffff' size = '1'>Deployed to West Germany<br /><br />1980's<br /><br /></t>",-1,-1,2,2,0,789] spawn BIS_fnc_dynamicText;
+```	
+</details>
