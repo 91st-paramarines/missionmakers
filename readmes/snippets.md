@@ -94,25 +94,24 @@ corpseRemovalMaxTime = 300;
 ```
 </details>
 
-## Ace Arsenel to box or vehicle
+## Arsenals
 
 <details>
-
+Add ACE Arsenal to object :
+	
 ```
-	[this, true] call ace_arsenal_fnc_initBox;
+// Access via ACE interaction menu
+[this, true] call ace_arsenal_fnc_initBox;
 
+// Access via action menu
+this addAction ["ACE Arsenal", {[_this select 0, player, true] call ace_arsenal_fnc_openBox}, [this]]; 
 ```
-
-</details>
-
-## Quartermaster Ace Asrenal
-
-<details>
-
+  
+Add BI Arsenal to object :
+	
 ```
-
-this addAction["Quartermaster Open Arsenal", {[_this select 0, player, true] call ace_arsenal_fnc_openBox},[this]];
-
+// Access via action menu
+this addAction ["BI Arsenal", {["Open", [true]] call BIS_fnc_arsenal;}]; 
 ```
 </details>
 
