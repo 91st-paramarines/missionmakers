@@ -94,7 +94,7 @@ corpseRemovalMaxTime = 300;
 ```
 </details>
 
-## Arsenals
+## Arsenals and loadouts
 
 <details>
 Add ACE Arsenal to object :
@@ -113,6 +113,28 @@ Add BI Arsenal to object :
 // Access via action menu
 this addAction ["BI Arsenal", {["Open", [true]] call BIS_fnc_arsenal;}]; 
 ```
+	
+Add quick loadout action to object (requires player to have saved a loadout with the quartermaster composition) : 
+```
+this addAction
+[
+	"Get loadout",
+	{
+		params ["_target", "_caller", "_actionId", "_arguments"];
+		private _savedLoadout = profileNamespace getVariable "NFST_loadout";
+		if (isNil "_savedLoadout") then
+		{
+			hint "No saved loadout.";
+		}
+		else
+		{
+			_caller setUnitLoadout _savedLoadout;
+			hint "Applied loadout."
+		};
+	}
+];
+```
+	
 </details>
 
 ## Reliable music trigger script MP
