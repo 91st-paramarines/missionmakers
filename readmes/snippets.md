@@ -170,3 +170,19 @@ Create a file called text1.sqf put the above code in it. The following 2 line in
 ["<t color='#ffffff' size = '1'>Deployed to West Germany<br /><br />1980's<br /><br /></t>",-1,-1,2,2,0,789] spawn BIS_fnc_dynamicText;
 ```	
 </details>
+
+## Protection zone
+
+<details>
+Put down a trigger set to repaetable and Radio activation Juliet, then put the following in the Activation box:
+
+```	
+removeAllWeapons player;
+removeVest player;
+removeHeadgear player;
+{ player removeMagazine _x } forEach magazines player;
+removeBackpackGlobal player;
+
+```	
+</details>
+
