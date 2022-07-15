@@ -174,7 +174,7 @@ Create a file called text1.sqf put the above code in it. The following 2 line in
 ## Protection zone
 
 <details>
-Put down a trigger set to repaetable and Radio activation Juliet, then put the following in the Activation box:
+Put the following in a trigger's activation :
 
 ```	
 removeAllWeapons player;
@@ -184,5 +184,29 @@ removeHeadgear player;
 removeBackpackGlobal player;
 
 ```	
+</details>
+
+## Talk action
+
+<details>
+	
+```	
+this addAction 
+[ 
+  "Talk", 
+  {hint "ADD YOUR TEXT HERE";}, 
+  nil, 
+  0, 
+  true, 
+  true, 
+  "", 
+  "(_this distance2D _target < 2)", 
+  50, 
+  false, 
+  "", 
+  "" 
+];  
+```	
+	  
 </details>
 
