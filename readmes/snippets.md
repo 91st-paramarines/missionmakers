@@ -140,11 +140,25 @@ this addAction
 ## Reliable music trigger script MP
 
 <details>
+	
+Define music as follows in description.ext :
 
 ```
+class CfgMusic
+{
+	tracks[] = {};
+	class YOUR_CLASS_NAME
+	{
+		name	= "YOUR_DISPLAY NAME";
+		sound[]	= { "YOUR_FILENAME_WITH_FILE_EXTENSION", db + 0, 1.0 };
+	};
+};
+```
 
-if isServer then {"insert classname" remoteExec ["playMusic"];}
-
+Play the music track with : 
+	
+```
+if (isServer) then {YOUR_CLASS_NAME remoteExec ["playMusic"];}
 ```
 </details>
 
