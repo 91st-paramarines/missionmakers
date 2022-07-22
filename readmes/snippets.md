@@ -9,6 +9,7 @@ Here you will find various code snippets for use in the editor or in zeus, that 
 ### Adding a radio rack to a vehicle
 The following will add an AN/PRC-77 to <b>var</b>.
 The radio will be accessible by <b>var</b>'s driver and commander.  
+This script will NOT work in an `init` field, it is has to called dynamically during the mission (trigger, `execVM`, `spawn`...).
   
 ```
 if (isServer) then  
