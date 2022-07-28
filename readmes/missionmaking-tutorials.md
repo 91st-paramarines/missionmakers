@@ -14,7 +14,7 @@ The other file formats are reserved for specific purposes, but they are not requ
 - **PAA** :  this is an arma texture file; PAAs can be converted from usual image formats using the Arma 3 Tools software or on [Gruppe Adler's website](https://paa.gruppe-adler.de/).
 converting a regular image to the .paa format can be frustrating for two reasons
   - the width and height of PAAs must be powers of two (ie 128, 256, 1024...), so the source image they are converted from must as well (this is a hardline requirement, 511 by 512 will not work)
-  - the image must not be layered; while this is generally not an issue, if the conversion fails despite dimensions being appropriate, unseen layers defined in more elaborate image formats such as .png may be the problme, so convert your image to .jpg and then convert it to .paa
+  - the image must not be layered; while this is generally not an issue, if the conversion fails despite dimensions being appropriate, unseen layers defined in more elaborate image formats such as .png may be the problem, so convert your image to .jpg and then convert it to .paa
 
 </details>
   
@@ -39,7 +39,7 @@ As they are already packaged, PBOs contain any files that were present in the mi
 The `description.ext` is an optional file you can place in your mission root folder.
 You can use it to specify various settings in a single file, instead of having to go over multiple editor tabs.
 It can also be used for more advanced purposes not covered here, such as adding config classes.
-The template provided [here](description.ext) allows you to bypass the `Presentation`, `Overview`, `Overview (Locked)` and `Loading Screen` tabs of the `Attributes`>`General` window of the editor.
+The template provided [here](resource/description.ext) allows you to bypass the `Presentation`, `Overview`, `Overview (Locked)` and `Loading Screen` tabs of the `Attributes`>`General` window of the editor.
 Just place it next to your `mission.sqm` file, edit it with the appropriate setttings, save it and you're good. 
 Settings specified in the description.ext file override those defined within the editor!
  
