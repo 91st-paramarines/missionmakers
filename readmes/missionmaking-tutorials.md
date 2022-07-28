@@ -39,7 +39,7 @@ As they are already packaged, PBOs contain any files that were present in the mi
 The `description.ext` is an optional file you can place in your mission root folder.
 You can use it to specify various settings in a single file, instead of having to go over multiple editor tabs.
 It can also be used for more advanced purposes not covered here, such as adding config classes.
-The template provided [here](resources/description.ext) allows you to bypass the `Presentation`, `Overview`, `Overview (Locked)` and `Loading Screen` tabs of the `Attributes`>`General` window of the editor.
+The template provided [here](../resources/description.ext) allows you to bypass the `Presentation`, `Overview`, `Overview (Locked)` and `Loading Screen` tabs of the `Attributes`>`General` window of the editor.
 Just place it next to your `mission.sqm` file, edit it with the appropriate setttings, save it and you're good. 
 Settings specified in the description.ext file override those defined within the editor!
  
