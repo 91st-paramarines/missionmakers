@@ -12,25 +12,22 @@ The radio will be accessible by <b>var</b>'s driver and commander.
 This script will NOT work in an `init` field, it is has to called dynamically during the mission (trigger, `execVM`, `spawn`...).
   
 ```
-if (isServer) then  
-{
+[
+	var,
 	[
-		var,
-		[
-			"ACRE_VRC64",
-			"Dashboard",
-			"Dash",
-			false,
-			["driver", "commander"],
-			[],
-			"ACRE_PRC77",
-			[],
-			["intercom_1"]
-		],
+		"ACRE_VRC64",
+		"Dashboard",
+		"Dash",
 		false,
-		{}
-	] call acre_api_fnc_addRackToVehicle;
-};
+		["driver", "commander"],
+		[],
+		"ACRE_PRC77",
+		[],
+		["intercom_1"]
+	],
+	false,
+	{}
+] call acre_api_fnc_addRackToVehicle;
 ```
 
 </details>
