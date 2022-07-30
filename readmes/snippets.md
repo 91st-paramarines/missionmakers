@@ -186,15 +186,16 @@ Create a file called text1.sqf put the above code in it. The following 2 line in
 ## Protection zone
 
 <details>
-Put the following in a trigger's activation :
+Put the following in a server trigger's activation :
 
 ```	
-removeAllWeapons player;
-removeVest player;
-removeHeadgear player;
-{ player removeMagazine _x } forEach magazines player;
-removeBackpackGlobal player;
-
+{
+  private _player = _x;
+  removeAllWeapons _x; 
+  {
+    _player removeMagazine _x;
+  } forEach magazines _x; 
+} forEach allPlayers;
 ```	
 </details>
 
