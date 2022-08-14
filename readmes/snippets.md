@@ -224,7 +224,7 @@ this addAction
 </details>
 
 	  
-## ## Explosion on a trigger
+## Explosion on a trigger
 
 <details>
 Put the following in a server trigger's activation :
