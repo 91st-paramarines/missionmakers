@@ -23,7 +23,11 @@ General tutorials on arma scripting are thus not included here, check our useful
 
  - The quartermaster system with our Cold War US loadouts : [Steam workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2831845765)  
  - The quartermaster system with our Cold War SAS loadouts : [Steam workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2847879508)  
- - The quartermaster system with blank loadouts (for you to make your own templates) : [Steam workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2833707151)  
+ - The quartermaster system with blank loadouts (for you to make your own templates) : [Steam workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2833707151) 
+ 
+### Other compositions
+
+ - Astro's performance-saving composition for adding more troops without computing their AI on the zeus' machine : [Steam workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2841506276)
 
 ## Repo contents
 
