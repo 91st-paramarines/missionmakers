@@ -7,9 +7,9 @@ General tutorials on arma scripting are thus not included here, check our useful
 
 ## Useful links
 
- - Bohemia's Arma 3 wiki [BIStudio](https://community.bistudio.com/wiki/Category:Arma_3:_Scripting_Commands).  
- - The ACE3 mod wiki [ACE3mod](https://ace3.acemod.org/wiki/framework/).  
- - The ACRE2 mod wiki [ACRE2](https://acre2.idi-systems.com/).
+ - Bohemia's Arma 3 wiki [BIStudio](https://community.bistudio.com/wiki/Category:Arma_3:_Scripting_Commands)  
+ - The ACE3 mod wiki [ACE3mod](https://ace3.acemod.org/wiki/framework/)  
+ - The ACRE2 mod wiki [ACRE2](https://acre2.idi-systems.com/)
 
 ## Unit approved (and possibly mandatory) compositions
 
@@ -23,7 +23,7 @@ General tutorials on arma scripting are thus not included here, check our useful
 
  - The quartermaster system with our Cold War US loadouts : [Steam workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2831845765)  
  - The quartermaster system with our Cold War SAS loadouts : [Steam workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2847879508)  
- - The quartermaster system with the loadouts : [Steam workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2833707151)  
+ - The quartermaster system with blank loadouts (for you to make your own templates) : [Steam workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2833707151)  
 
 ## Repo contents
 
